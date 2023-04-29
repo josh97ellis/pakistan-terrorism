@@ -1,0 +1,38 @@
+﻿Variable Name,Variable Definition
+eventid,Unique event identifier
+iyear,Year of event
+imonth,Month of event
+iday,Day of event
+region,Region within Pakistan where event took place (numeric id)
+region_txt,Region within Pakistan where event took place (text name)
+provstate,Province/State within Pakistan where event took place
+city,City where event took place
+latitude,Latitude of event
+longitude,Longitude of event
+location,Description of event's location
+summary,Text summary of event
+multiple,"Multiple attacks (0=no, 1=yes)"
+success,"Was the attack successful  (0=no, 1=yes)"
+suicide,"Suicide attack (0=no, 1=yes)"
+attacktype1,Type of attack (numeric id)
+attacktype1_txt,Type of attack (text)
+targtype1,Type of target (numeric id)
+targtype1_txt,Type of target (text)
+targsubtype1,Subtype of target (numeric)
+targsubtype1_txt,Subtype of target (text)
+corp1,Name of target
+target1,People/group targeted
+gname,Group Name
+claimed,Whether or not the responsible party claimed the attack
+claimmode,How the attack was claimed (numeric)
+claimmode_txt,How the attack was claimed (text)
+weaptype1,Weapon type (numeric)
+weaptype1_txt,Weapon Type (text)
+weapsubtype1,Weapon Subtype (numeric)
+weapsubtype1_txt,Weapon Subtype (text)
+nkill,Number of individuals killed
+nkillus,Number of US-affiliated individuals killed
+nkillter,Number of terrorists killed
+nwound,Number of individuals wounded
+nwoundus,Number of US-affiliated individuals wounded
+nwoundte,Number of terrorists wounded
