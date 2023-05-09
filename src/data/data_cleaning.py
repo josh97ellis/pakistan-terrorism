@@ -31,9 +31,9 @@ def replace_missing_data(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def write_to_interim(df: pd.DataFrame) -> None:
+def write_to_processed(df: pd.DataFrame) -> None:
     df.to_parquet(
-        f"{Path(__file__).parent.parent.parent}/data/interim/pakistan_processed.parquet",
+        f"{Path(__file__).parent.parent.parent}/data/processed/pakistan_processed.parquet",
         compression='gzip',
         engine='pyarrow',
         index=False)
@@ -43,7 +43,7 @@ def main():
     data = read_raw_data()
     data_selected = select_columns(data)
     data_final = replace_missing_data(data_selected)
-    write_to_interim(data_final)
+    write_to_processed(data_final)
 
 
 if __name__ == '__main__':

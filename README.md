@@ -5,5 +5,3 @@ The data come from a paper that my professor is working on in his own reserach. 
 
 ### The Goal
 The best prediction that you can of which terrorist organization committed each of the unclaimed attacks in the data set
-
-### Project Structure
